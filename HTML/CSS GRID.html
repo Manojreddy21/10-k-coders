@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS GRID</title>
+<style>
+#grid-parent{
+background-color:green;
+color:white;
+padding:35px;
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:200px 200px 200px;
+row-gap:33px;
+column-gap:3px;
+gap:22px
+
+}
+.grid-child {
+background-color:blue;
+color:white;
+text-align:center;
+font-weight:700;
+font-size:36px;
+border:3px solid red;
+padding:45px
+}
+</style>
+</head>
+<body>
+<div id="grid-parent">
+<div class="grid-child grid child 1">grid child 1</div>
+<div class="grid-child grid child 2">grid child 2</div>
+<div class="grid-child grid child 3">grid child 3</div>
+<div class="grid-child grid child 4">grid child 4</div>
+</div>
+</body>
+</html>
